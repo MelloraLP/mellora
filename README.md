@@ -46,6 +46,7 @@ Switch networks in the app's header, or in your wallet.
 
 Official news only at [mellora.org](https://mellora.org) and [@MelloraLP](https://x.com/MelloraLP).
 Mellora has not launched a token. Anything else claiming to be Mellora is not us.
+Found a vulnerability? See [SECURITY.md](SECURITY.md).
 
 ## Disclaimer
 
