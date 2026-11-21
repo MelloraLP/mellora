@@ -7,7 +7,7 @@ What shipped on [app.mellora.org](https://app.mellora.org), newest first. Dates 
 - Robinhood Chain (chain 4663) on app.mellora.org, next to Elysium: a network switch in the header that also
   follows the wallet.
 - Pools, Uniswap v3 and v4 positions, swaps (Uniswap or KyberSwap, the better quote).
-- Tokenized stocks and ETFs in a view of their own, with tickers, company logos and market caps.
+- Robinhood Stock Tokens in a view of their own, with tickers, company logos and market caps.
 - Range alerts for Robinhood Chain: [@mellora_robinhood_bot](https://t.me/mellora_robinhood_bot).
 - Elysium's alerts move to [@mellora_elysium_bot](https://t.me/mellora_elysium_bot).
 - mellora.org shows both networks' live markets.

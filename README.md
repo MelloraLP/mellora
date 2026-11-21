@@ -15,7 +15,7 @@ This repository is Mellora's public home: what it does, where it runs, and what 
 | Network | Status | What works |
 |---|---|---|
 | Elysium (chain 99901) | Live | Pools, charts, trades and depth; create, collect, move and close Uniswap v4 positions; grids; swaps |
-| Robinhood Chain (chain 4663) | Live · Beta | Pools, tokenized stocks, Uniswap v3 and v4 positions, swaps |
+| Robinhood Chain (chain 4663) | Live · Beta | Pools, Robinhood Stock Tokens, Uniswap v3 and v4 positions, swaps |
 
 Switch networks in the app's header, or in your wallet.
 
@@ -28,7 +28,7 @@ Switch networks in the app's header, or in your wallet.
 - **Positions and grids.** Create, collect, move and close Uniswap positions, or place a ladder of ranges in one
   transaction.
 - **Swaps.** The better quote of Uniswap and KyberSwap.
-- **Tokenized stocks** (Robinhood Chain). Stocks and ETFs in a view of their own, with tickers and company logos.
+- **Robinhood Stock Tokens** (Robinhood Chain). Stock Tokens in a view of their own, with tickers and company logos.
 - **Range alerts.** A Telegram message when a position leaves its range or a ladder step fills:
   [@mellora_elysium_bot](https://t.me/mellora_elysium_bot) for Elysium,
   [@mellora_robinhood_bot](https://t.me/mellora_robinhood_bot) for Robinhood Chain.
