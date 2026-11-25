@@ -2,6 +2,15 @@
 
 What shipped on [app.mellora.org](https://app.mellora.org), newest first. Dates are UTC.
 
+## 2026-11-25 — Swap with a bridge
+
+- Move funds between networks right inside Swap: from Ethereum, Base, Arbitrum, Optimism, BNB Chain, Polygon,
+  Unichain or HyperEVM into Robinhood Chain or Elysium, and back.
+- Routes from Relay, LI.FI and Across, side by side: the provider, fees and gas in USD, the time and the minimum
+  received are shown before you sign. No Mellora fee on bridges.
+- Each transfer is followed until it lands, also after a page reload: sent, filled, received, with both transactions.
+- A new token picker: network first, then token, with logos and your balance on every network in USD.
+
 ## 2026-11-17 — Robinhood Chain (Beta)
 
 - Robinhood Chain (chain 4663) on app.mellora.org, next to Elysium: a network switch in the header that also

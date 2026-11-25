@@ -14,8 +14,8 @@ This repository is Mellora's public home: what it does, where it runs, and what 
 
 | Network | Status | What works |
 |---|---|---|
-| Elysium (chain 99901) | Live | Pools, charts, trades and depth; create, collect, move and close Uniswap v4 positions; grids; swaps |
-| Robinhood Chain (chain 4663) | Live · Beta | Pools, Robinhood Stock Tokens, Uniswap v3 and v4 positions, swaps |
+| Elysium (chain 99901) | Live | Pools, charts, trades and depth; create, collect, move and close Uniswap v4 positions; grids; swaps; bridge |
+| Robinhood Chain (chain 4663) | Live · Beta | Pools, Robinhood Stock Tokens, Uniswap v3 and v4 positions, swaps; bridge |
 
 Switch networks in the app's header, or in your wallet.
 
@@ -28,6 +28,8 @@ Switch networks in the app's header, or in your wallet.
 - **Positions and grids.** Create, collect, move and close Uniswap positions, or place a ladder of ranges in one
   transaction.
 - **Swaps.** The better quote of Uniswap and KyberSwap.
+- **Bridge.** Move funds between networks inside Swap, e.g. from Base or Arbitrum into Robinhood Chain or Elysium.
+  Routes from Relay, LI.FI and Across, with fees, gas and time shown before you sign, followed until they land.
 - **Robinhood Stock Tokens** (Robinhood Chain). Stock Tokens in a view of their own, with tickers and company logos.
 - **Range alerts.** A Telegram message when a position leaves its range or a ladder step fills:
   [@mellora_elysium_bot](https://t.me/mellora_elysium_bot) for Elysium,
@@ -38,9 +40,10 @@ Switch networks in the app's header, or in your wallet.
 
 - **Non-custodial.** No keys, no deposits, no accounts. Every transaction is built for your wallet and signed by you.
 - **Exact approvals.** Approvals for the amount each action needs, never an unlimited allowance left behind.
-- **Simulated first.** Each transaction is simulated against the chain before you sign it.
+- **Simulated first.** Each position and swap transaction is simulated against the chain before you sign it.
 - **Known contracts only.** Positions go to Uniswap's own contracts. A KyberSwap route is checked against its known
-  router before you sign.
+  router before you sign. A bridge route goes only to its provider's known contracts, and its quote is checked
+  again right before you sign.
 
 ## Official channels
 
@@ -51,5 +54,5 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md).
 ## Disclaimer
 
 Mellora is an independent interface. It is not affiliated with, endorsed by or operated by Kinetiq, the Elysium
-network, Robinhood Markets, Robinhood Chain, Offchain Labs, Paxos, KyberSwap, Uniswap Labs or the Uniswap
-Foundation. Providing liquidity can lose money. Market data can be wrong or late.
+network, Robinhood Markets, Robinhood Chain, Offchain Labs, Paxos, KyberSwap, Relay, LI.FI, Across, Uniswap
+Labs or the Uniswap Foundation. Providing liquidity can lose money. Market data can be wrong or late.
